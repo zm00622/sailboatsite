@@ -1,0 +1,95 @@
+This is the closest to working you have gotten:
+
+https://www.npmjs.com/package/react-simple-image-slider
+
+The image gallery above is simple and straight forward but for some reason
+you cannot get it to dispaly the images. 
+
+
+/*********************/
+
+https://www.npmjs.com/package/react-slideshow-image
+
+/*********************/
+
+https://dev.to/jasonmeidev/making-a-simple-image-slider-in-react-js-1gbb
+
+/*********************/
+
+class Gallery extends Component {
+  render() {
+      return (
+          
+        <div>
+       
+      </div>
+          
+          )
+      }
+  }
+  
+export default Gallery
+
+
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+
+/* Code Pen Gallery Slider CSS */
+
+
+
+a.prev,a.next {
+	height:91px;
+	position:absolute;
+	width:43px;
+	top:50%;
+	margin-top:-30px;
+	opacity:0.6;
+	text-indent:-99999px;
+	cursor:pointer;
+	-webkit-transition:opacity 200ms ease-out;
+}
+a.prev:hover,a.next:hover {
+	opacity:1;
+}
+
+.prev {
+  left:0;
+	background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -200px 25px;
+}
+.next {
+  right:100%;
+	background: #000 url('https://lh4.googleusercontent.com/-JN1IZLtuToI/UUoZnMG3C_I/AAAAAAAAAE8/SEbJ9nqXGnY/s226/sprite.png') no-repeat -167px 25px;
+}
+.slider {
+	height:100vh;
+	position: relative;
+}
+.slide {
+	position:absolute;
+	height:100%;
+	width:100%;
+}
+.slider .slide:target {
+	z-index: 100;
+}
+img.sliderIMG {
+  padding-top: 70px;
+	max-width:100%;
+	width:100%;
+	position:fixed;
+	left:0;
+}
+
+/***********************************************************************************/
+
+CodePen Gallery Slider JS
+
+
+
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/
+/***********************************************************************************/

@@ -13,7 +13,7 @@ class Home extends Component {
             <ReactTypingEffect className="typingeffect" text={[
                 '"Built like a tank" and "bulletproof." ~ sailingmagazine.net',
                 'Designed to be practically indestructible. ~ practical-sailor.com']
-                } speed={100} eraseDelay={700}/>
+                } speed={100} eraseSpeed={35} eraseDelay={5000}/>
             {/* <Social /> */}
             {/* <p className="themes">
                 <a href="https://zm00622.github.io/creative-theme/">| Default Creative Theme |</a>
